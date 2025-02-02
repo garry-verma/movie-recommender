@@ -6,9 +6,8 @@ import gdown
 
 # Google Drive File ID
 file_id = "11ZFwKOoZ9Tvh3vHYcOJGjy3nm1Y8snpB"
-url = f"https://drive.google.com/uc?id={file_id}"
+url = f"https://drive.google.com/uc?id={file_id}&export=download"
 
-# Download the file
 output = "similarity2.pkl"
 gdown.download(url, output, quiet=False)
 
